@@ -38,7 +38,7 @@ Uygunluk skorunu düşüren kısıtlar (Motor Gücü ve Minimum Hız):
 
 ---
 
-## Elde Edilen Çözüm
+## Elde Edilen Örnek Çözüm
 
 Gerçekleştirilen 15 nesillik evrim sonunda bulunan en iyi çözüm değerleri:
 
