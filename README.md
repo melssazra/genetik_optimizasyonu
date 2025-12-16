@@ -1,10 +1,10 @@
-# 🚚 Genetik Algoritma ile Nakliye Rotası Optimizasyonu
+# Genetik Algoritma ile Nakliye Rotası Optimizasyonu
 
 Bu proje, bir lojistik firmasının rota seçimi sırasında **yakıt tüketimi ve süre maliyetini optimize etmek** için Genetik Algoritma (GA) kullanımını göstermektedir.
 
 ---
 
-## 📌 Optimizasyon Problemi
+##  Optimizasyon Problemi
 
 ### Amaç Fonksiyonu (Uygunluk)
 Negatif toplam maliyeti maksimize etmek amaçlanmıştır (Maksimum uygunluk = Minimum maliyet).
@@ -22,7 +22,7 @@ Uygunluk skorunu düşüren kısıtlar (Motor Gücü ve Minimum Hız):
 
 ---
 
-## 🧬 Genetik Algoritma Parametreleri ve Yapısı
+## Genetik Algoritma Parametreleri ve Yapısı
 
 | Parametre | Seçilen Değer / Yöntem | Açıklama |
 | :--- | :--- | :--- |
@@ -36,7 +36,7 @@ Uygunluk skorunu düşüren kısıtlar (Motor Gücü ve Minimum Hız):
 
 ---
 
-## 💡 Elde Edilen Çözüm
+## Elde Edilen Çözüm
 
 Gerçekleştirilen 15 nesillik evrim sonunda bulunan en iyi çözüm değerleri:
 
