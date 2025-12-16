@@ -27,8 +27,10 @@ Uygunluk skorunu düşüren kısıtlar (Motor Gücü ve Minimum Hız):
 | Parametre | Seçilen Değer / Yöntem | Açıklama |
 | :--- | :--- | :--- |
 | **Popülasyon Büyüklüğü** | 20 | Genetik çeşitliliği sağlar (Kod çıktısındaki birey sayısından çıkarılmıştır). |
-| **Nesil Sayısı** | 15 | Algoritmanın döngü sayısı. |
-| **Seçim Yöntemi** | Rank Temelli Seçim | Uygunluk değerine göre sıralama yaparak seçim olasılığı atar. |
+| **Nesil Sayısı** | kullanıcı belirler| Algoritmanın döngü sayısı. |
+| **Seçim Yöntemi** | Rank Temelli Seçim | Uygunluk değerine göre sıralama yaparak seçim olasılığı atar. | 
+| **Seçim Yöntemi** | Rulet Temelli Seçim | Bir bireyin uygunluğu ne kadar yüksekse, sanal rulet tekerleğinde kapladığı alan o kadar büyüktür ve seçilme şansı o kadar artar.|
+| **Çaprazlama Yöntemi | Tek Noktalı Çaprazlama | romozom üzerinde rastgele tek bir kesme noktası seçilir. Bu noktadan itibaren ebeveynlerin genetik materyalleri değiş tokuş edilerek iki çocuk birey oluşturulur.|
 | **Çaprazlama Yöntemi** | İki Noktalı Çaprazlama | Kromozomları iki farklı noktadan keserek genetik değişimi artırır. |
 | **Mutasyon İhtimali** | 0.4 | Rastgele genetik değişimi tetikleme olasılığı. |
 | **Mutasyon Büyüklüğü** | 0.16 | Mutasyon sırasında bireylere uygulanacak maksimum değişim büyüklüğü. |
