@@ -32,8 +32,8 @@ Uygunluk skorunu düşüren kısıtlar (Motor Gücü ve Minimum Hız):
 | **Seçim Yöntemi** | Rulet Temelli Seçim | Bir bireyin uygunluğu ne kadar yüksekse, sanal rulet tekerleğinde kapladığı alan o kadar büyüktür ve seçilme şansı o kadar artar.|
 | **Çaprazlama Yöntemi | Tek Noktalı Çaprazlama | romozom üzerinde rastgele tek bir kesme noktası seçilir. Bu noktadan itibaren ebeveynlerin genetik materyalleri değiş tokuş edilerek iki çocuk birey oluşturulur.|
 | **Çaprazlama Yöntemi** | İki Noktalı Çaprazlama | Kromozomları iki farklı noktadan keserek genetik değişimi artırır. |
-| **Mutasyon İhtimali** | 0.4 | Rastgele genetik değişimi tetikleme olasılığı. |
-| **Mutasyon Büyüklüğü** | 0.16 | Mutasyon sırasında bireylere uygulanacak maksimum değişim büyüklüğü. |
+| **Mutasyon İhtimali** | kullanıcı belirler | Rastgele genetik değişimi tetikleme olasılığı. |
+| **Mutasyon Büyüklüğü** | kullanıcı belirler | Mutasyon sırasında bireylere uygulanacak maksimum değişim büyüklüğü. |
 | **Kısıt Kontrolü** | Ceza Fonksiyonu | İhlal edilen her kısıt için uygunluktan ceza puanı düşülür (Kodda ceza $100$ ile çarpılmıştır). |
 
 ---
